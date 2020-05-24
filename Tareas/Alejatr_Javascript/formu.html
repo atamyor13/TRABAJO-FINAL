@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Quieres ser mi amigo</title>
+	<link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet" type="text/css"> 
+	<style type="text/css">
+		*{
+			margin: 0px;
+			padding: 0px;
+		}
+		body{ 
+			background: #4FF5D0;
+			background-position: center;
+		 }
+		 form{
+		 	background: #F591EF;
+		 	width: 360px;
+		 	border: 1px solid;
+		 	border-radius: 3px;
+		 	-moz-border-radius:3px;
+		 	-webkit-border-radius:3px;
+		 	box-shadow: inset 0 0 10px #887F7F;
+		 	margin:100px auto;
+		}
+		form h1{
+			text-align: center;
+			color:#fff;
+			font-weight: normal;
+			font-size: 40pt;
+			margin: 30px 0px;
+			font-family: 'Dancing Script', cursive;
+		}
+		form input{
+			width: 280px;
+			height: 35px;
+			padding: 0px 10px;
+			color #FFA9E4;
+			text-align: center;
+		}
+		form button{
+			width: 135px;
+			margin: 20px 0px 30px 30px;
+			height: 50px;
+			background: 
+			border:1px solid#D21EF2;
+			color:#fff;
+			box-shadow: 0px 2px 0px #000;
+			-moz-box-shadow:0px 2px 0px #000;
+			-webkit-box-shadow:0px 2px 0px #000;
+			border-radius: 3px;
+			-moz-border-radius: 3px;
+			-webkit-border-radius: 3px;
+		}
+	</style>
+</head>
+<body bgcolor="#7BF3E6">
+
+	<center>
+	<form>
+		<h1>
+			Formulario de datos <br>
+		</h1>
+		<label>Nombre: </label>
+		<input type="text" max-length="20" placeholder="Ingrese Nombre y Apellidos" name="Nombre"><br> <br>
+		<label>Teléfono: </label>
+		<input type="number" max-length="20" placeholder="Ingrese telefono" name="Teléfono"> <br> <br>
+		<label>@-mail: </label>
+		<input type="text" max-length="20" placeholder="Ingrese @-mail" name="@-mail"><br> <br>
+		<label>Intereses: </label> <br>
+		<textarea type="text" max-length="20" rows="10" cols="30" placeholder="Ingrese Intereses" name="Intereses"></textarea><br> <br>
+		<label>Edad: </label>
+		<select name= "Edad"> 
+			<option value="Edad">Edad
+			<option value="Edad">18 - 22
+			<option value="Edad">23 - 32
+			<option value="Edad">32 - 40
+			<option value="Edad">40 +
+		</select> <br> <br>
+		<label>Genero: </label>
+		<select name= "Genero"> 
+			<option value="Genero">Genero
+			<option value="Genero">Femenino
+			<option value="Genero">Masculino
+			<option value="Genero">Otro
+		</select> <br> <br>
+		<button type="button">OK</button>
+		<button type="button">Cancelar</button> <br> <br>
+	</form>
+    </center>
+	<script src="formulario.js">
+
+    </script>
+</body>
+</html>

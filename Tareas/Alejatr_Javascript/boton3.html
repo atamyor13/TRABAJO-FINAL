@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>boton</title>
+	<style type="text/css">
+		.uno a{
+			text-decoration: none;
+			display: block;
+			border: 1px solid #A803ED;
+			width: 100px;
+			height: 35px;
+			text-align: center;
+			/*Para que el elemento este totalmente centrado*/
+			padding-top: 15px;
+			/*Para que quede en el centro de la pagina y seguira en el centro en todo instante*/
+			margin: auto;
+
+			/*Propiedades del boton*/
+			background-color: #A803ED;
+			/*Cambio de color en el texto*/
+			color:#fff;
+			font-family:arial;
+			box-shadow: -3px 3px 10px #000;
+			text-shadow: -3px 3px 10px #000;
+			transition: 1s;
+			/*navegadores*/
+			-webkit-transition:1s;
+			-o-transition:1s;
+			-moz-transition:1s;
+			/*para que sea minuscula*/
+			text-transform: lowercase;
+		}
+		/*colocar una imagen en el boton*/
+		/*.uno a:before{
+			content: "";
+			background-image: url("carpeta/imagen"); 
+			/*para que el background no se repita*/
+			/*background-repeat: no-repeat;
+			background-position: 20px -5px;
+			para que se vea en caja
+			display: block;
+			float: left;
+			width: 60px;
+			height:  60px; */
+		}
+		/*Cuando se pase el cursor cambie de color*/
+		.uno a:hover{
+			background-color: #fff;
+			color:#A803ED;
+			border: 1px solid #A803ED
+			transform.rotate(360deg)
+		}
+
+
+
+	</style>
+</head>
+<body>
+	<div class="uno">
+		<h3><a href="formulario.js">FORMULARIO</a></h3>
+	</div>
+
+</body>
+</html>
